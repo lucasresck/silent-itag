@@ -1,11 +1,13 @@
 
-## iTag One
+# silent-itag
+
+> This fork forces the Android app to be silent when the iTag is pressed twice. It's aimed at people who don't like the idea of an external button controlling the device's sound.
 
 iTag bluetooth devices are perfect gadget for those who used to lose their keys, wallets, phone and remotes. iTag One is its Android companion to relieve anxiety about the important things has gone. 
 
 ![](https://raw.githubusercontent.com/s4ysolutions/itag/master/assets/itag_black.svg?sanitize=true)
 
-The devices are sold through the lot of online stores for bargain price of $1 or $1.5 and really worthy to spend a buck in exchange of stopping to worry about lost keys or to become angry of not finding a phone.
+The devices are sold through the lot of online stores for bargain price of $1 or $1.5 and really worthy to spend a buck in exchange of stopping to worry about lost keys or to become angry of not finding a phone. 
 
 ## Getting Started
 
