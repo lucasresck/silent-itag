@@ -1,7 +1,7 @@
 
 # silent-itag
 
-> This fork forces the Android app to be silent when the iTag is pressed twice. It's aimed at people who don't like the idea of an external button controlling the device's sound.
+> This fork forces the Android app to be silent when the iTag is pressed twice. It's aimed at people who don't like the idea of an external button controlling the device's sound. To use this modification, just clone this repository and build the app.
 
 iTag bluetooth devices are perfect gadget for those who used to lose their keys, wallets, phone and remotes. iTag One is its Android companion to relieve anxiety about the important things has gone. 
 
