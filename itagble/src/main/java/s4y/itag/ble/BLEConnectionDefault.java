@@ -612,7 +612,9 @@ class BLEConnectionDefault implements BLEConnectionInterface {
 
     @Override
     public boolean isFindMe() {
-        return observableClick().value() >= CLICK_COUNT;
+        // Ignore FindMe state (double click on iTag) to avoid sound alarm.
+        // return observableClick().value() >= CLICK_COUNT;
+        return false;
     }
 
     @Override
