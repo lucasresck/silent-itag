@@ -161,11 +161,7 @@ public class MainActivity extends FragmentActivity {
         }
         disposableBag.dispose();
         sIsShown = false;
-        if (ITag.store.isDisconnectAlert() || Waytoday.tracker.isUpdating) {
-            ITagsService.start(this);
-        } else {
-            ITagsService.stop(this);
-        }
+        ITagsService.start(this);
         ErrorsObservable.removeErrorListener(mErrorListener);
         Waytoday.gpsLocationUpdater.removePermissionListener(gpsPermissionListener);
         super.onPause();
